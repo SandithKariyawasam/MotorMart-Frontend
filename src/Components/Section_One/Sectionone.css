@@ -1,0 +1,145 @@
+
+  
+  .auction-section {
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(53, 53, 53, 0.7)), url('../../assets/sell-car__bg.1716972009.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .auction-header {
+    margin-left: 200px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .auction-header h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .auction-header p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .auction-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .auction-btn:hover {
+    background-color: #ccc;
+  }
+  
+
+  
+  .wrapper {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contai {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 400px;
+    justify-content: start;
+  }
+  
+  .card {
+    align-items: flex-end;
+    background-size: cover;
+    border-radius: .75rem;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+    cursor: pointer;
+    display: flex;
+    margin: 0 10px;
+    overflow: hidden;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    width: 80px;
+  }
+  
+  .card > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .card > .row > .icon {
+    align-items: center;
+    background: #223;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    width: 50px;
+  }
+  
+  .card > .row > .description {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: center;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(30px);
+    transition: all .3s ease;
+    transition-delay: .3s;
+    width: 520px;
+  }
+  
+  .description p {
+    color: #b0b0ba;
+    padding-top: 5px;
+  }
+  
+  .description h4 {
+    text-transform: uppercase;
+  }
+  
+  input {
+    display: none;
+  }
+  
+  input:checked + label {
+    width: 600px;
+  }
+  
+  input:checked + label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+  
+  .card[for="c1"] {
+    background-image: url('../../assets/sell-car__bg.1716972009.jpg');
+  }
+  
+  .card[for="c2"] {
+    background-image: url('../../assets/sell-car__bg.1716972009.jpg');
+  }
+  
+  .card[for="c3"] {
+    background-image: url('../../assets/sell-car__bg.1716972009.jpg');
+  }
+  
+  .card[for="c4"] {
+    background-image: url('../../assets/sell-car__bg.1716972009.jpg');
+  }
+  
