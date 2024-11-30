@@ -1,12 +1,10 @@
 import React from 'react'
-import Header from './Components/Header/Header'
-import Sectionone from './Components/Section_One/Sectionone'
+import Navbar from './Components/Navbar/Navbar'
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <Sectionone/>
+    <div className="container">
+      <Navbar/>
     </div>
   )
 }

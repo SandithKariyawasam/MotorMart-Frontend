@@ -4,10 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 body{
-  background: #ffffff;
+  background: #171717;
 }
 a{
   text-decoration: none;
@@ -17,6 +17,28 @@ a{
 }
 
 .container{
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+.btn {
+  background: #fbca1f;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.btn:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
 }
