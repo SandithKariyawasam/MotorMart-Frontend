@@ -1,45 +1,70 @@
 .Main-box {
-    display: grid;
-    grid-template-columns: 2fr 1fr; /* Main image on left, thumbnails on right */
-    gap: 2px;
-    margin-top: 5%;
-    padding: 16px;
-    justify-content: center;
-    align-items: stretch; /* Ensures both columns match in height */
-  }
-  
-  .box-one {
-    position: relative;
-  }
-  
-  .box-one img {
-    width: 100%;
-    height: 400px; /* Matches the height of the `box-two` column */
-    object-fit: cover; /* Ensures the image scales proportionally without distortion */
-  }
-  
-  .box-one h3 {
-    position: absolute;
-    bottom: 16px;
-    left: 16px;
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
-    color: white;
-    padding: 8px 16px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-  }
-  
-  .box-two {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns */
-    grid-template-rows: 1fr 1fr;   /* Two rows */
-    gap: 2px;
-  }
-  
-  .box-two img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures images scale proportionally */
-  }
-  
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2px;
+  padding: 16px;
+  align-items: stretch;
+  margin-top: 5%;
+}
+
+.box-one {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.box-one img {
+  width: 100%;
+  height: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.box-one .bid{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 330px;
+  bottom: 16px;
+  left: 16px;
+}
+
+.box-one .bid .bid-title{
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 8px 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.box-one .bid .bid-details{
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  padding: 8px 15px;
+  font-size: 1.0rem;
+  font-weight: bold;
+  margin: 0;
+  border-radius: 4px;
+}
+
+.box-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2px;
+  height: 100%;
+}
+
+.box-two img {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.Main-box > .box-two img:last-child {
+  margin-bottom: 0;
+}
