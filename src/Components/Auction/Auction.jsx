@@ -1,16 +1,17 @@
 import React from 'react'
 import './Auction.css'
 import img_1 from '../../assets/1.jpg';
-import img_2 from '../../assets/2.jpg';
-import img_3 from '../../assets/3.jpg';
-import img_4 from '../../assets/4.jpg';
-import img_5 from '../../assets/5.jpg';
 
 const Auction = () => {
   return (
+    <>
+        <div className='title'>
+            <h2>Live Auctions</h2>
+        </div>
+
       <div className="card-container">
 
-
+        
 
 
         <div className="card">
@@ -182,6 +183,8 @@ const Auction = () => {
             </div>
         </div>
       </div>
+
+      </>
   )
 }
 
