@@ -54,3 +54,25 @@
     cursor: pointer;
     text-align: center;
 }
+
+
+.bide{
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+.bide-title{
+    position: absolute;
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 330px;
+    bottom: 16px;
+    left: 16px;
+  }
