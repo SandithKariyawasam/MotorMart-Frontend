@@ -1,16 +1,27 @@
 import React from 'react'
-import Navbar from './Home/Navbar/Navbar'
+import Navbar from './Components/Navbar/Navbar'
 import Hero from './Home/Hero/Hero'
 import Auction from './Home/Auction/Auction'
-import Footer from './Home/Footer/Footer'
+import Footer from './Components/Footer/Footer'
+import About from './About/About'
+
+import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   return (
     <>
     <div className="container">
       <Navbar/>
-      <Hero/>
-      <Auction/>
+      
+      <Routes>
+        <Route path='/' element={
+          <>
+            <Hero />
+            <Auction />
+          </>
+        } />
+        <Route path='/about' element={<About />}/>
+      </Routes>
     </div>
       <Footer/>
       </>

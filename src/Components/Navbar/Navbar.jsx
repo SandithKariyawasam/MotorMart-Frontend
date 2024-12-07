@@ -2,10 +2,12 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 
+import { Link } from 'react-router-dom'
+
 const Navbar = () => {
   return (
     <nav className='nav'>
-        <img src={logo} alt='' className='logo'/>
+        <Link to='/'><img src={logo} alt='' className='logo'/></Link>
         <ul>
             <li>Auctions
                 <ul className='dropdown'>
