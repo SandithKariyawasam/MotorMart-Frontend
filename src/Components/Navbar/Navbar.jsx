@@ -11,9 +11,9 @@ const Navbar = () => {
         <ul>
             <li>Auctions
                 <ul className='dropdown'>
-                    <li>Live Auction</li>
-                    <li>Featured Auction</li>
-                    <li>Past Result</li>
+                    <li><Link to='/Live'>Live Auction</Link></li>
+                    <li><Link to='/Featured'> Featured Auction</Link></li>
+                    <li><Link to='/Past'> Past Result</Link></li>
                 </ul>
             </li>
             <li>Sell a vehicle</li>

@@ -4,6 +4,9 @@ import Hero from './Home/Hero/Hero'
 import Auction from './Home/Auction/Auction'
 import Footer from './Components/Footer/Footer'
 import About from './About/About'
+import Live from './Auction/LiveAuction'
+import Featured from './Auction/FeaturedAuction'
+import Past from './Auction/PastAuction'
 
 import { Routes, Route } from 'react-router-dom'
 
@@ -21,6 +24,9 @@ const App = () => {
           </>
         } />
         <Route path='/about' element={<About />}/>
+        <Route path='/Live' element={<Live />}/>
+        <Route path='/Featured' element={<Featured />}/>
+        <Route path='/Past' element={<Past />}/>
       </Routes>
     </div>
       <Footer/>
