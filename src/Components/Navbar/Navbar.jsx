@@ -16,7 +16,7 @@ const Navbar = () => {
                     <li><Link to='/Past'> Past Result</Link></li>
                 </ul>
             </li>
-            <li>Sell a vehicle</li>
+            <li><Link to='/Sell'>Sell a vehicle</Link></li>
             <li>Help Center</li>
             <li>News</li>
         </ul>
