@@ -9,6 +9,7 @@ import Featured from './Auction/FeaturedAuction'
 import Past from './Auction/PastAuction'
 import Sell from './Sellvehicle/Sellvehicle'
 import Help from './Helpcenter/Helpcenter'
+import News from './News/News'
 
 import { Routes, Route } from 'react-router-dom'
 
@@ -31,6 +32,7 @@ const App = () => {
         <Route path='/Past' element={<Past />}/>
         <Route path='/Sell' element={<Sell />}/>
         <Route path='/Help' element={<Help />}/>
+        <Route path='./News' element={<News />}/>
       </Routes>
     </div>
       <Footer/>
