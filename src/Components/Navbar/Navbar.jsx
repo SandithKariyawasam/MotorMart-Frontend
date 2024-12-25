@@ -17,7 +17,7 @@ const Navbar = () => {
                 </ul>
             </li>
             <li><Link to='/Sell'>Sell a vehicle</Link></li>
-            <li>Help Center</li>
+            <li><Link to='./Help'>Help Center</Link></li>
             <li>News</li>
         </ul>
         <ul>
