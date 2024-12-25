@@ -48,7 +48,7 @@ const LiveAuction = () => {
   
     return (
       <>
-          <div className='title'>
+          <div className='title-one'>
               <h2>Live Auctions</h2>
           </div>
   

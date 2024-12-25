@@ -7,7 +7,7 @@ const PastAuction = () => {
     
       return (
         <>
-            <div className='title'>
+            <div className='title-one'>
                 <h2>Past Auctions</h2>
             </div>
     

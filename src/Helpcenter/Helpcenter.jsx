@@ -4,7 +4,7 @@ import './Helpcenter.css'
 const Helpcenter = () => {
   return (
     <>
-    <div className='title'>
+    <div className='title-one'>
                 <h2>Help Center</h2>
             </div>
 

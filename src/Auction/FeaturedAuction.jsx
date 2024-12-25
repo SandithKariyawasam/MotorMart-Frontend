@@ -48,7 +48,7 @@ const FeaturedAuction = () => {
     
       return (
         <>
-            <div className='title'>
+            <div className='title-one'>
                 <h2>Featured Auctions</h2>
             </div>
     

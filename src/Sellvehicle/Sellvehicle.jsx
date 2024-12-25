@@ -4,7 +4,7 @@ import './Sellvehicle.css';
 const Sellvehicle = () => {
   return (
     <>
-            <div className='title'>
+            <div className='title-one'>
                 <h2>Input Details</h2>
             </div>
 
