@@ -3,9 +3,7 @@ import './Login&signup.css'
 
 const Login = () => {
   return (
-    <div>
-      
-    </div>
+    <></>
   )
 }
 
