@@ -7,7 +7,7 @@
 }
 
 .form-box-sign {
-    max-width: 300px;
+    max-width: 500px;
     background: #f1f7fe;
     overflow: hidden;
     border-radius: 16px;
@@ -88,3 +88,6 @@
   .form button:hover {
     background-color: #fbca1f;
   }
+
+
+  
